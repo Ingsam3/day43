@@ -45,14 +45,91 @@
 				<img src ="../images/main_img.jpg" width="971" height="282" alt="메인이미지">
 				
 			</div>
-			<%-- 메인 본문 --%>
-			<article id="main_cont">
-			<%-- article : 본문 내용을 구성할 때 주로 사용함 --%>
 			
+			<%-- 메인 본문 --%>
+			<article id="main_cont"> <%-- article : 본문 내용을 구성할 때 주로 사용함 --%>
+				<div id="soluction">
+					<div id="hosting">
+						<h3>Web Hosting Soluction</h3>
+						<p>Lorem ...Ut vel est</p>
+						<p>Lorem ...Ut vel est</p>
+						<p>Lorem ...Ut vel est</p>
+						<p>Lorem ...Ut vel est</p>
+					</div>
+					
+					<div id="security">
+						<h3>Web Security Solution</h3>
+						<p>Lorem ...Ut vel est</p>
+						<p>Lorem ...Ut vel est</p>
+						<p>Lorem ...Ut vel est</p>
+						<p>Lorem ...Ut vel est</p>
+					</div>
+					
+					<div id="payment">
+						<h3>Web Payment Solution</h3>
+						<p>Lorem ...Ut vel est</p>
+						<p>Lorem ...Ut vel est</p>
+						<p>Lorem ...Ut vel est</p>
+						<p>Lorem ...Ut vel est</p>
+					</div>
+				</div>
+				
+				<div class="clear"></div>
+					
+				
+				<div id="sec_news">
+					<h3><span class="orange">Security</span>News</h3>
+					<dl><%-- dl : 정의 리스트 --%>
+						<dt><a href="#">Vivamus is ligula...</a></dt><%-- dt : 제목 --%>
+						<dd><a href="#">Proin quis ante ....</a></dd><%-- dd: 내용설명 --%>
+						<dt><a href="#">Vivamus is ligula...</a></dt>
+						<dd><a href="#">Proin quis ante ....</a></dd>
+					</dl>
+				</div>
+				
+				<%-- DB 연동 파트 (게시판) --%>
+				<div id="news_notice">
+					<h3 class="brown">News &amp; Notice </h3>
+					<table>
+						<tr>
+							<td class ="contxt"><a href="#">Vivamus....</a></td>
+							<td><a href="#">2023.06.12</a></td>
+						</tr>
+						<tr>
+							<td class ="contxt"><a href="#">Vivamus....</a></td>
+							<td><a href="#">2023.06.13</a></td>
+						</tr>
+						<tr>
+							<td class ="contxt"><a href="#">Vivamus....</a></td>
+							<td><a href="#">2023.06.14</a></td>
+						</tr>
+						<tr>
+							<td class ="contxt"><a href="#">Vivamus....</a></td>
+							<td><a href="#">2023.06.15</a></td>
+						</tr>
+						<tr>
+							<td class ="contxt"><a href="#">Vivamus....</a></td>
+							<td><a href="#">2023.06.16</a></td>
+						</tr>
+					</table>
+				</div>
+				
 			</article>	
+			
+			<div class="clear"></div>
+			
 			<%-- 하단 영역 --%>
 			<footer>
-			
+				<hr>
+				<div id="copy">
+					All contents Copyright 2023 FunWeb Inc. all right reserved<br>
+					Contact mail : funweb@naver.com Tel:+82 64 123 4315 Fax +82 64 123 3452
+				
+				</div>
+				<div id="social">
+					<img src ="../images/facebook.gif" width="33" height="33" alt="Facebook">
+					<img src ="../images/twitter.gif" width="33" height="33" alt="Twitter">
+				</div>
 			</footer>
 		</div>
 		
